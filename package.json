@@ -17,10 +17,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/index.js"
+    "pretest": "npm run -s lint",
+    "test": "tape test/index.js",
+    "lint": "eslint index.js test/index.js"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^2.0.0",
     "almost-equal": "0.0.0",
+    "eslint": "^2.11.1",
     "lodash.isfunction": "^3.0.1",
     "tape": "^3.5.0"
   }
