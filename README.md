@@ -1,7 +1,6 @@
 # epley
 
 [![Build Status][travis-svg]][travis]
-[![Dependency Status][gemnasium-svg]][gemnasium]
 
 [Epley Formula][1] for one-repetition maximum.
 
@@ -35,5 +34,3 @@ maximum as a _Number_.
    [1]: https://en.wikipedia.org/wiki/One-repetition_maximum#Epley_Formula
    [travis]: https://travis-ci.org/KenanY/epley
    [travis-svg]: https://img.shields.io/travis/KenanY/epley.svg
-   [gemnasium]: https://gemnasium.com/KenanY/epley
-   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/epley.svg
