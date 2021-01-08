@@ -27,6 +27,6 @@
     "almost-equal": "1.1.0",
     "eslint": "^7.17.0",
     "lodash.isfunction": "3.0.9",
-    "tape": "5.0.1"
+    "tape": "^5.1.1"
   }
 }
