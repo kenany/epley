@@ -7,7 +7,7 @@
   ],
   "repository": "KenanY/epley",
   "license": "MIT",
-  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
   "files": [
     "index.js",
@@ -16,17 +16,25 @@
   "directories": {
     "test": "test"
   },
+  "engines": {
+    "node": "10 || 12 || 14 || >=16"
+  },
   "scripts": {
     "pretest": "npm run -s lint",
     "test": "tape test/index.js",
-    "lint": "eslint index.js test/index.js"
+    "lint": "eslint index.js test/index.js",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@kenan/eslint-config": "^9.0.4",
     "@kenan/renovate-config": "^1.5.1",
-    "almost-equal": "1.1.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "almost-equal": "^1.1.0",
+    "conventional-changelog-conventionalcommits": "^4.6.2",
     "eslint": "^7.32.0",
-    "lodash.isfunction": "3.0.9",
+    "lodash.isfunction": "^3.0.9",
+    "semantic-release": "^18.0.1",
     "tape": "^5.3.1"
   }
 }
