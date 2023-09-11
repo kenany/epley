@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/kenany/epley/compare/2.0.0...3.0.0) (2023-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 ([8ef945a](https://github.com/kenany/epley/commit/8ef945a91727c7d6bea4c4c34c83e7ebd215a23b))
+
 ## [2.0.0](https://github.com/KenanY/epley/compare/1.0.2...2.0.0) (2022-12-04)
 
 
