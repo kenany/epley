@@ -1,13 +1,11 @@
 # epley
 
-[![Build Status][travis-svg]][travis]
-
 [Epley Formula][1] for one-repetition maximum.
 
 ## Example
 
 ``` javascript
-var epley = require('epley');
+const epley = require('epley');
 
 epley(100, 6);
 // => 120
@@ -22,7 +20,7 @@ $ npm install epley
 ## API
 
 ``` javascript
-var epley = require('epley');
+const epley = require('epley');
 ```
 
 ### `epley(weight, reps)`
@@ -32,5 +30,3 @@ maximum as a _Number_.
 
 
    [1]: https://en.wikipedia.org/wiki/One-repetition_maximum#Epley_Formula
-   [travis]: https://travis-ci.org/KenanY/epley
-   [travis-svg]: https://img.shields.io/travis/KenanY/epley.svg
